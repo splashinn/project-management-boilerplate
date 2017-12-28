@@ -11,7 +11,7 @@ class AddProject extends Component {
     }
 
   static defaultProps = {
-    categories: ["Web Design", "Web Development", "Mobile Development"]
+    categories: ["Something", "You can customize", "These options in AddProject.js"]
   }
 
 
@@ -49,7 +49,7 @@ class AddProject extends Component {
             </select>
           </div>
           <br />
-          <input type="submit" value="submit" />
+          <input type="submit" value="Submit" />
         </form>
       </div>
     );
